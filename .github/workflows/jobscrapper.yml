@@ -1,4 +1,4 @@
-name: Daily Python Script Email
+name: Daily Python Developer Script Email
 
 on:
   push:

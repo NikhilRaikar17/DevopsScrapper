@@ -3,8 +3,8 @@ from jobspy import scrape_jobs
 from datetime import datetime
 
 jobs = scrape_jobs(
-    site_name=["indeed", "linkedin"],
-    search_term="Devops Engineer",
+    site_name=["indeed", "linkedin", "glassdoor"],
+    search_term="Python Developer",
     location="germany",
     results_wanted=30,
     hours_old=72, # (only Linkedin/Indeed is hour specific, others round up to days old)
