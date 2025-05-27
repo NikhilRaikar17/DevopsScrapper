@@ -10,7 +10,7 @@ from datetime import datetime
 sender_email = os.getenv('GMAIL_USERNAME')
 receiver_email = os.getenv('RECEIVER_EMAIL')
 password = os.getenv('GMAIL_APP_PASSWORD')
-subject = "Daily DEVOPS Job Scraping Results"
+subject = "Daily PYTHON DEV Job Scraping Results"
 body = "Please find attached the CSV file containing the latest job scraping results."
 
 # File to attach
